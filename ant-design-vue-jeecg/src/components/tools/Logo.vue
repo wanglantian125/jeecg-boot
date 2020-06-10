@@ -21,7 +21,7 @@
     props: {
       title: {
         type: String,
-        default: 'Jeecg-Boot Pro',
+        default: '智慧监狱',
         required: false
       },
       showTitle: {

@@ -69,6 +69,7 @@ public class SysPermissionController {
 			List<SysPermission> list = sysPermissionService.list(query);
 			List<SysPermissionTree> treeList = new ArrayList<>();
 			getTreeList(treeList, list, null);
+			System.out.println(treeList);
 			result.setResult(treeList);
 			result.setSuccess(true);
             log.info("======获取全部菜单数据=====耗时:" + (System.currentTimeMillis() - start) + "毫秒");
